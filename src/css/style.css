@@ -1,14 +1,22 @@
+/* PÁGINA INICIAL - BANCO PAN */
+
 * {
     box-sizing: border-box;
 }
 
+    /* CABEÇALHO */
+
 header {
     position: relative;
-    background: #07B2FD;
+    background: #FFFFFF;
 }
 
 nav {
     padding: 1rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 .caixa-menu-1 h1 {
@@ -28,7 +36,7 @@ nav {
 .caixa-menu-1 li {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.07rem;
-    color: #F5F5F5;
+    color: #414141;
 }
 
 .caixa-menu-1 li {
@@ -36,37 +44,96 @@ nav {
     margin-left: 5rem;
 }
 
+.caixa-menu-1 li a {
+    color: #414141;
+}
+
+.caixa-menu-1 li a:hover {
+    text-decoration: underline;
+}
+
 .caixa-menu-2 {
     font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 2rem;
-    right: 3rem;
+    right: 1rem;
 }
 
 .menu-link {
     position: relative;
     top: 1px;
-    text-decoration: none;
-    font-size: 1.07rem;
+    font-size: 1rem;
     color: #414141;
 }
 
 .botao {
-    background-color: #F5F5F5;
     padding: 0.9rem 1.5rem;
-    border-radius: 10px;
-
-    font-size: 0.9rem;
+    border-radius: 12px;
 }
 
 .botao-menu {
+    background-color: #039BE5;
+    font-size: 0.9rem;
     text-decoration: none;
     margin-left: 2rem;
-    color: #414141;
+    color: #FFFFFF;
 }
+
+    /* CONTEÚDO PRINCIPAL */
 
 main {
     font-family: 'Poppins', sans-serif;
+}
+
+.caixa {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.azul {
+    background-color: #07B2FD;
+}
+
+.bloco-1 {
+    display: inline-block;
+    width: 50%;
+}
+
+.titulo-pequeno {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 6rem 0 1.5rem 0;
+}
+
+.titulo {
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2.5rem;
+    line-height: 3.4rem;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.botao-preto {
+    padding: 1rem 1.5rem;
+    background-color: #0D1317;
+    color: #FFFFFF;
+    margin-bottom: 6rem;
+}
+
+.texto-branco {
+    margin: 6rem 0;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.bloco-2 {
+    width: 41.666667%;
+}
+
+.bloco-2 img {
+    width: 502px;
+    height: 666px;
 }
 
 footer {

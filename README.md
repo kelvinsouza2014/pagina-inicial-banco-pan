@@ -10,3 +10,5 @@ font-family: 'Poppins', sans-serif;
 
 Fonte - Parágrafo - forte
 font-family: 'Golos Text', sans-serif;
+
+<!-- Revisar as medidas e talvez substituir algumas medidas relativas (rem) por pixels (px) -->
